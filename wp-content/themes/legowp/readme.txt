@@ -13,7 +13,7 @@ A starter theme called legowp.
 
 == Description ==
 
-lego projekt
+legowp
 
 == Installation ==
 
