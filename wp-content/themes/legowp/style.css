@@ -44,9 +44,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-* {
-    background-color: red;
-}
+
+
+
 
 html {
 	font-family: comic sans ms;
@@ -860,3 +860,49 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+* {
+    font-family: Ubuntu
+}
+
+.site-branding {
+    display: none;
+}
+
+#masthead {
+	background-color: #fff;
+	color: green;
+	padding: 10px;
+        padding-left: 100px;
+        box-shadow: 1px 1px 0.5px #888888;
+}
+
+.main-navigation li {
+    float: left;
+    position: relative;
+    padding: 5px;
+    
+}
+
+ /* unvisited link */
+#site-navigation  a:link {
+    color: black;
+    font-size: 19px;
+    
+}
+
+/* visited link */
+#site-navigation a:visited {
+    color: black;
+}
+
+/* mouse over link */
+#site-navigation a:hover {
+    color: black;
+}
+
+/* selected link */
+#site-navigation a:active {
+    color: #006db8;
+    
+} 
